@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Rélogio Elegante",
+      "price": 50.99,
+      "image": "3766111"
+    },
+    {
+      "id": 2,
+      "name": "Câmera Vintage",
+      "price": 85.5,
+      "image": "2919589"
+    },
+    {
+      "id": 3,
+      "name": "Fones de Ouvido",
+      "price": 35.99,
+      "image": "3780681"
+    },
+    {
+      "id": 4,
+      "name": "Tênis de Corrida",
+      "price": 120.0,
+      "image": "1599005"
+    },
+    {
+      "id": 5,
+      "name": "Smartphone",
+      "price": 299.99,
+      "image": "404280"
+    },
+    {
+      "id": 6,
+      "name": "Livro de Aventura",
+      "price": 19.99,
+      "image": "256450"
+    }
+  ]
