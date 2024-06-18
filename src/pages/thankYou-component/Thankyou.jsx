@@ -16,7 +16,7 @@ const ThankYouPage = ({ clearCart }) => {
   useEffect(() => {
     // A função clearCart será chamada apenas quando a página é desmontada
     return () => clearCart();
-  }, [clearCart]);
+  }, []);
 
   return (
     <div className="thank-you-page">
