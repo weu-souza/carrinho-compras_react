@@ -1,14 +1,26 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Button from "../../components/Button-component/Button"
-
-
-
-product.image
+import { createClient } from 'pexels';
+import useImage from '../../hooks/useImage';
+// import useImage from "../../hooks/useImage.js"
 
 
 
 const Product = ({product}) => {
- 
+
+  const {foto} = useImage(product.image)
+  console.log(foto)
+  
+//   const[foto,setFoto] = useState('')
+//   useEffect(() =>{
+// const client = createClient('7x8umGIM0Oay5TAl7HrgEr25C7bwbTc8RthufGYFeh3dmNR3t2HON4s6');
+
+
+// client.photos.show({ id: product.image}).then(photo => {
+// setFoto(() => photo.src.original)
+// });
+// },[])
+    
   return (
     <div className='product'>
 
